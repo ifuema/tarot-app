@@ -9,8 +9,6 @@ Vue.prototype.$axios = axios.create({
   baseURL: 'http://localhost:3000'
 })
 
-
-
 Vue.config.productionTip = false
 
 new Vue({
